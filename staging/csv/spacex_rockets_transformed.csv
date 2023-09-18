@@ -1,0 +1,5 @@
+id,name,height,diameter,mass,type,active,stages,boosters,cost_per_launch,success_rate_pct,country,first_flight
+5e9d0d95eda69955f709d1eb,Falcon 1,22.25,1.6800000000000002,30146,rocket,False,2,0,6700000,40,Republic of the Marshall Islands,2006-03-24
+5e9d0d95eda69973a809d1ec,Falcon 9,70.0,3.7,549054,rocket,True,2,0,50000000,98,United States,2010-06-04
+5e9d0d95eda69974db09d1ed,Falcon Heavy,70.0,12.2,1420788,rocket,True,2,2,90000000,100,United States,2018-02-06
+5e9d0d96eda699382d09d1ee,Starship,118.0,9.0,1335000,rocket,False,2,0,7000000,0,United States,2021-12-01

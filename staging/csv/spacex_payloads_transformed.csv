@@ -1,0 +1,226 @@
+id,name,type,reused,launch,mass_kg,orbit,regime,reference_system,periapsis_km,apoapsis_km,inclination_deg,period_min,lifespan_years
+5eb0e4b5b6c3bb0006eeb1e1,FalconSAT-2,Satellite,False,5eb87cd9ffd86e000604b32a,20.0,LEO,low-earth,geocentric,400.0,500.0,39.0,,
+5eb0e4b6b6c3bb0006eeb1e2,DemoSAT,Satellite,False,5eb87cdaffd86e000604b32b,,LEO,low-earth,geocentric,,,,,
+5eb0e4b6b6c3bb0006eeb1e3,Trailblazer,Satellite,False,5eb87cdbffd86e000604b32c,,LEO,low-earth,geocentric,,,,,
+5eb0e4b6b6c3bb0006eeb1e4,PRESat,Satellite,False,5eb87cdbffd86e000604b32c,,LEO,low-earth,geocentric,,,,,
+5eb0e4b7b6c3bb0006eeb1e5,RatSat,Satellite,False,5eb87cdbffd86e000604b32d,165.0,LEO,low-earth,geocentric,601.336,619.523,9.3448,96.904,
+5eb0e4b7b6c3bb0006eeb1e6,RazakSAT,Satellite,False,5eb87cdcffd86e000604b32e,200.0,LEO,low-earth,geocentric,657.685,681.609,8.9865,98.138,
+5eb0e4b7b6c3bb0006eeb1e7,Dragon Qualification Unit,Dragon Boilerplate,False,5eb87cddffd86e000604b32f,,LEO,low-earth,geocentric,235.945,276.701,34.5005,89.632,
+5eb0e4b9b6c3bb0006eeb1e8,COTS Demo Flight 1,Dragon 1.0,False,5eb87cdeffd86e000604b330,,LEO,low-earth,geocentric,279.375,308.481,34.5447,90.396,
+5eb0e4b9b6c3bb0006eeb1e9,Cubesats,Satellite,False,5eb87cdeffd86e000604b330,,LEO,low-earth,geocentric,,,,,
+5eb0e4bab6c3bb0006eeb1ea,COTS Demo Flight 2,Dragon 1.0,False,5eb87cdfffd86e000604b331,525.0,LEO,low-earth,geocentric,294.646,372.452,51.6726,91.202,
+5eb0e4bab6c3bb0006eeb1eb,CRS-1,Dragon 1.0,False,5eb87ce0ffd86e000604b332,400.0,ISS,low-earth,geocentric,203.764,326.293,51.6539,89.809,
+5eb0e4bab6c3bb0006eeb1ec,Orbcomm-OG2,Dragon 1.0,False,5eb87ce0ffd86e000604b332,400.0,LEO,low-earth,geocentric,,,45.0,,5.0
+5eb0e4bbb6c3bb0006eeb1ed,CRS-2,Dragon 1.0,False,5eb87ce1ffd86e000604b333,677.0,ISS,low-earth,geocentric,203.274,322.036,51.6797,89.761,
+5eb0e4bbb6c3bb0006eeb1ee,CASSIOPE,Satellite,False,5eb87ce1ffd86e000604b334,500.0,PO,low-earth,geocentric,317.23,1180.681,80.9625,99.799,2.0
+5eb0e4bbb6c3bb0006eeb1ef,SES-8,Satellite,False,5eb87ce2ffd86e000604b335,3170.0,GTO,geostationary,geocentric,35783.513,35789.517,0.0228,1436.093,15.0
+5eb0e4bbb6c3bb0006eeb1f0,Thaicom 6,Satellite,False,5eb87ce3ffd86e000604b336,3325.0,GTO,geostationary,geocentric,35774.719,35799.824,0.0641,1436.131,15.0
+5eb0e4bbb6c3bb0006eeb1f1,CRS-3,Dragon 1.1,False,5eb87ce4ffd86e000604b337,2296.0,ISS,low-earth,geocentric,313.486,332.006,51.6429,90.982,
+5eb0e4bcb6c3bb0006eeb1f2,Orbcomm-OG2-M1,Satellite,False,5eb87ce4ffd86e000604b338,1316.0,LEO,low-earth,geocentric,202.633,323.117,51.6528,89.765,5.0
+5eb0e4bcb6c3bb0006eeb1f3,AsiaSat 8,Satellite,False,5eb87ce5ffd86e000604b339,4535.0,GTO,geostationary,geocentric,35778.085,35795.786,0.013000000000000001,1436.114,15.0
+5eb0e4bcb6c3bb0006eeb1f4,AsiaSat 6,Satellite,False,5eb87ce6ffd86e000604b33a,4428.0,GTO,geostationary,geocentric,35785.253,35789.747,0.0008,1436.143,15.0
+5eb0e4bcb6c3bb0006eeb1f5,CRS-4,Dragon 1.1,False,5eb87ce7ffd86e000604b33b,2216.0,ISS,low-earth,geocentric,203.334,354.971,51.6518,90.095,
+5eb0e4bdb6c3bb0006eeb1f6,CRS-5,Dragon 1.1,False,5eb87ce8ffd86e000604b33c,2395.0,ISS,low-earth,geocentric,206.049,351.484,51.6369,90.088,
+5eb0e4bdb6c3bb0006eeb1f7,DSCOVR,Satellite,False,5eb87ceaffd86e000604b33d,570.0,ES-L1,L1-point,heliocentric,,,,,5.0
+5eb0e4bdb6c3bb0006eeb1f8,ABS-3A,Satellite,False,5eb87ceaffd86e000604b33e,1954.0,GTO,geostationary,geocentric,35778.842,35795.708,0.009600000000000001,1436.132,15.0
+5eb0e4bdb6c3bb0006eeb1f9,Eutelsat 115 West B,Satellite,False,5eb87ceaffd86e000604b33e,2205.0,GTO,geostationary,geocentric,35784.957,35786.905,0.0057,1436.063,15.0
+5eb0e4bdb6c3bb0006eeb1fa,CRS-6,Dragon 1.1,False,5eb87cecffd86e000604b33f,1898.0,ISS,low-earth,geocentric,205.548,360.711,51.6488,90.176,
+5eb0e4beb6c3bb0006eeb1fb,TürkmenÄlem 52°E / MonacoSAT,Satellite,False,5eb87cedffd86e000604b340,4707.0,GTO,geostationary,geocentric,35774.36,35797.803,0.0128,1436.071,15.0
+5eb0e4beb6c3bb0006eeb1fc,CRS-7,Dragon 1.1,False,5eb87ceeffd86e000604b341,2477.0,ISS,low-earth,geocentric,,,51.6,,
+5eb0e4beb6c3bb0006eeb1fd,Orbcomm-OG2-M2,Satellite,False,5eb87cefffd86e000604b342,2034.0,LEO,low-earth,geocentric,707.076,709.866,47.0034,98.95,5.0
+5eb0e4beb6c3bb0006eeb1fe,Jason-3,Satellite,False,5eb87cf0ffd86e000604b343,553.0,PO,low-earth,geocentric,1331.649,1343.816,66.0415,112.418,5.0
+5eb0e4beb6c3bb0006eeb1ff,SES-9,Satellite,False,5eb87cf2ffd86e000604b344,5271.0,GTO,geostationary,geocentric,35784.106,35789.478,0.0149,1436.107,15.0
+5eb0e4bfb6c3bb0006eeb200,CRS-8,Dragon 1.1,False,5eb87cf3ffd86e000604b345,3136.0,ISS,low-earth,geocentric,209.37,353.802,51.6569,90.145,
+5eb0e4bfb6c3bb0006eeb201,JCSAT-2B,Satellite,False,5eb87cf5ffd86e000604b346,4696.0,GTO,geostationary,geocentric,35782.254,35789.861,0.018500000000000003,1436.069,15.0
+5eb0e4bfb6c3bb0006eeb202,Thaicom 8,Satellite,False,5eb87cf6ffd86e000604b347,3100.0,GTO,geostationary,geocentric,35778.361,35795.337,0.08320000000000001,1436.11,15.0
+5eb0e4bfb6c3bb0006eeb203,ABS-2A,Satellite,False,5eb87cf8ffd86e000604b348,1800.0,GTO,geostationary,geocentric,35780.81,35794.767,0.013300000000000001,1436.158,15.0
+5eb0e4bfb6c3bb0006eeb204,Eutelsat 117 West B,Satellite,False,5eb87cf8ffd86e000604b348,1800.0,GTO,geostationary,geocentric,35784.957,35786.905,0.0057,1436.063,15.0
+5eb0e4c0b6c3bb0006eeb205,CRS-9,Dragon 1.1,False,5eb87cf9ffd86e000604b349,2257.0,ISS,low-earth,geocentric,204.214,355.504,51.6593,90.11,
+5eb0e4c1b6c3bb0006eeb206,JCSAT-16,Satellite,False,5eb87cfaffd86e000604b34a,4600.0,GTO,geostationary,geocentric,35771.073,35803.406,0.0761,1436.13,15.0
+5eb0e4c1b6c3bb0006eeb207,Amos-6,Satellite,False,5eb87cfbffd86e000604b34b,5500.0,GTO,geostationary,geocentric,35785.0,35800.0,,,15.0
+5eb0e4c2b6c3bb0006eeb208,Iridium NEXT 1,Satellite,False,5eb87cfdffd86e000604b34c,9600.0,PO,low-earth,geocentric,776.304,779.039,86.3965,100.403,15.0
+5eb0e4c3b6c3bb0006eeb209,CRS-10,Dragon 1.1,False,5eb87cfeffd86e000604b34d,2490.0,ISS,low-earth,geocentric,202.334,356.602,51.632,90.102,
+5eb0e4c3b6c3bb0006eeb20a,EchoStar 23,Satellite,False,5eb87cfeffd86e000604b34e,5600.0,GTO,geostationary,geocentric,35777.224,35796.527,0.017400000000000002,1436.111,15.0
+5eb0e4c3b6c3bb0006eeb20b,SES-10,Satellite,False,5eb87d00ffd86e000604b34f,5300.0,GTO,geostationary,geocentric,35775.359,35799.368,0.0162,1436.136,15.0
+5eb0e4c3b6c3bb0006eeb20c,NROL-76,Satellite,False,5eb87d01ffd86e000604b350,,LEO,low-earth,geocentric,,,50.0,,10.0
+5eb0e4c3b6c3bb0006eeb20d,Inmarsat-5 F4,Satellite,False,5eb87d01ffd86e000604b351,6070.0,GTO,geostationary,geocentric,35786.108,35788.444,0.0109,1436.132,15.0
+5eb0e4c4b6c3bb0006eeb20e,CRS-11,Dragon 1.1,True,5eb87d03ffd86e000604b352,2708.0,ISS,low-earth,geocentric,204.35,355.307,51.639,90.109,
+5eb0e4c4b6c3bb0006eeb20f,BulgariaSat-1,Satellite,False,5eb87d04ffd86e000604b353,3669.0,GTO,geostationary,geocentric,35774.642,35797.773,0.0438,1436.077,15.0
+5eb0e4c4b6c3bb0006eeb210,Iridium NEXT 2,Satellite,False,5eb87d05ffd86e000604b354,9600.0,PO,low-earth,geocentric,776.377,778.966,86.3966,100.403,15.0
+5eb0e4c4b6c3bb0006eeb211,Intelsat 35e,Satellite,False,5eb87d06ffd86e000604b355,6761.0,GTO,geosynchronous,geocentric,35781.09,35793.967,0.0173,1436.144,15.0
+5eb0e4c4b6c3bb0006eeb212,CRS-12,Dragon 1.1,False,5eb87d07ffd86e000604b356,2910.0,ISS,low-earth,geocentric,202.59,357.938,51.6336,90.118,
+5eb0e4c4b6c3bb0006eeb213,FormoSat-5,Satellite,False,5eb87d08ffd86e000604b357,475.0,SSO,sun-synchronous,geocentric,714.369,731.722,98.342,99.256,5.0
+5eb0e4c5b6c3bb0006eeb214,X-37B OTV-5,Satellite,False,5eb87d09ffd86e000604b358,4990.0,LEO,low-earth,geocentric,,,54.0,,
+5eb0e4c5b6c3bb0006eeb215,Iridium NEXT 3,Satellite,False,5eb87d0affd86e000604b359,9600.0,PO,low-earth,geocentric,776.354,778.983,86.4014,100.403,15.0
+5eb0e4c5b6c3bb0006eeb216,SES-11 / Echostar 105,Satellite,False,5eb87d0cffd86e000604b35a,5200.0,GTO,geostationary,geocentric,35775.046,35798.329,0.0089,1436.102,15.0
+5eb0e4c5b6c3bb0006eeb217,KoreaSat 5A,Satellite,False,5eb87d0dffd86e000604b35b,3700.0,GTO,geostationary,geocentric,35779.863,35794.157,0.034800000000000005,1436.118,15.0
+5eb0e4c5b6c3bb0006eeb218,CRS-13,Dragon 1.1,True,5eb87d0effd86e000604b35c,2205.0,ISS,low-earth,geocentric,203.576,355.751,51.6387,90.106,
+5eb0e4c6b6c3bb0006eeb219,Iridium NEXT 4,Satellite,False,5eb87d0fffd86e000604b35d,9600.0,PO,low-earth,geocentric,776.111,779.226,86.396,100.403,15.0
+5eb0e4c6b6c3bb0006eeb21a,ZUMA,Satellite,False,5eb87d10ffd86e000604b35e,,LEO,low-earth,geocentric,,,51.0,,
+5eb0e4c6b6c3bb0006eeb21b,GovSat-1,Satellite,False,5eb87d11ffd86e000604b35f,4230.0,GTO,geostationary,geocentric,,,,,15.0
+5eb0e4c6b6c3bb0006eeb21c,Tesla Roadster,Satellite,False,5eb87d13ffd86e000604b360,1350.0,HCO,,heliocentric,180.528,6950.733,29.0185,164.469,3500000.0
+5eb0e4c6b6c3bb0006eeb21d,Paz,Satellite,False,5eb87d14ffd86e000604b361,1350.0,SSO,sun-synchronous,geocentric,507.251,509.477,97.4442,94.789,15.0
+5eb0e4c6b6c3bb0006eeb21e,Tintin A & B,Satellite,False,5eb87d14ffd86e000604b361,800.0,SSO,low-earth,geocentric,155.268,175.267,97.4245,87.794,1.0
+5eb0e4c7b6c3bb0006eeb21f,Hispasat 30W-6,Satellite,False,5eb87d15ffd86e000604b362,6092.0,GTO,geostationary,geocentric,35775.255,35798.167,0.0465,1436.103,15.0
+5eb0e4c7b6c3bb0006eeb220,Iridium NEXT 5,Satellite,False,5eb87d16ffd86e000604b363,9600.0,PO,low-earth,geocentric,776.299,779.021,86.395,100.403,15.0
+5eb0e4c7b6c3bb0006eeb221,CRS-14,Dragon 1.1,True,5eb87d16ffd86e000604b364,2760.0,ISS,low-earth,geocentric,203.778,356.6,51.6437,90.117,
+5eb0e4c7b6c3bb0006eeb222,TESS,Satellite,False,5eb87d18ffd86e000604b365,350.0,HEO,high-earth,highly-elliptical,117131.167,366725.403,32.6631,20523.038,10.0
+5eb0e4c7b6c3bb0006eeb223,Bangabandhu-1,Satellite,False,5eb87d19ffd86e000604b366,3750.0,GTO,geostationary,geocentric,35777.007,35797.642,0.0171,1436.134,15.0
+5eb0e4c7b6c3bb0006eeb224,Iridium NEXT 6,Satellite,False,5eb87d1affd86e000604b367,4300.0,PO,low-earth,geocentric,746.388,749.004,86.4486,99.773,15.0
+5eb0e4c8b6c3bb0006eeb225,GRACE-FO 1-2,Satellite,False,5eb87d1affd86e000604b367,1160.0,PO,sun-synchronous,geocentric,480.066,503.759,88.9912,94.449,5.0
+5eb0e4c8b6c3bb0006eeb226,SES-12,Satellite,False,5eb87d1bffd86e000604b368,5383.85,GTO,geostationary,geocentric,35776.954,35797.379,0.0409,1436.126,15.0
+5eb0e4c8b6c3bb0006eeb227,CRS-15,Dragon 1.1,True,5eb87d1cffd86e000604b369,2410.0,ISS,low-earth,geocentric,227.094,386.773,51.6352,90.66,
+5eb0e4c8b6c3bb0006eeb228,Telstar 19V,Satellite,False,5eb87d1effd86e000604b36a,7076.0,GTO,geostationary,geocentric,35777.311,35796.648,0.031100000000000003,1436.116,15.0
+5eb0e4c9b6c3bb0006eeb229,Iridium NEXT 7,Satellite,False,5eb87d1fffd86e000604b36b,9600.0,PO,low-earth,geocentric,776.012,779.297,86.4,100.403,15.0
+5eb0e4c9b6c3bb0006eeb22a,Telkom-4,Satellite,False,5eb87d20ffd86e000604b36c,5800.0,GTO,geostationary,geocentric,35782.198,35792.099,0.015300000000000001,1436.125,15.0
+5eb0e4c9b6c3bb0006eeb22b,Telstar 18V,Satellite,False,5eb87d22ffd86e000604b36d,7060.0,GTO,geostationary,geocentric,35779.227,35794.963,0.0183,1436.122,15.0
+5eb0e4c9b6c3bb0006eeb22c,SAOCOM 1A,Satellite,False,5eb87d23ffd86e000604b36e,2800.0,SSO,sun-synchronous,geocentric,621.633,623.434,97.885,97.156,5.0
+5eb0e4c9b6c3bb0006eeb22d,Es’hail 2,Satellite,False,5eb87d24ffd86e000604b36f,3000.0,GTO,geostationary,geocentric,35781.907,35791.453,0.014100000000000001,1436.101,15.0
+5eb0e4c9b6c3bb0006eeb22e,SSO-A,Satellite,False,5eb87d25ffd86e000604b370,4000.0,SSO,sun-synchronous,geocentric,566.644,588.332,97.602,96.22,
+5eb0e4cab6c3bb0006eeb22f,CRS-16,Dragon 1.1,True,5eb87d26ffd86e000604b371,2573.0,ISS,low-earth,geocentric,404.129,407.407,51.6425,92.678,
+5eb0e4cab6c3bb0006eeb230,GPS III SV01,Satellite,False,5eb87d27ffd86e000604b372,4400.0,MEO,semi-synchronous,geocentric,20124.053,20241.66,55.1231,718.003,15.0
+5eb0e4cab6c3bb0006eeb231,Iridium NEXT 8,Satellite,False,5eb87d28ffd86e000604b373,9600.0,PO,low-earth,geocentric,775.879,779.445,86.3993,100.403,15.0
+5eb0e4cab6c3bb0006eeb232,Nusantara Satu (PSN-6),Satellite,False,5eb87d2affd86e000604b374,5000.0,GTO,geostationary,geocentric,35779.023,35795.13,0.013800000000000002,1436.121,15.0
+5eb0e4cab6c3bb0006eeb233,S5,Satellite,False,5eb87d2affd86e000604b374,60.0,GTO,geostationary,geocentric,,,,,
+5eb0e4cab6c3bb0006eeb234,Beresheet,Lander,False,5eb87d2affd86e000604b374,585.0,GTO,highly-elliptical,geocentric,1261.386,407520.879,25.0088,16049.838,0.00547945
+5eb0e4cbb6c3bb0006eeb235,CCtCap Demo Mission 1,Crew Dragon,False,5eb87d2bffd86e000604b375,12259.0,ISS,low-earth,geocentric,394.367,411.911,51.6381,92.624,
+5eb0e4cbb6c3bb0006eeb236,ArabSat 6A,Satellite,False,5eb87d2dffd86e000604b376,6000.0,GTO,geostationary,geocentric,35755.75,35817.834,0.0385,1436.107,15.0
+5eb0e4cbb6c3bb0006eeb237,CRS-17,Dragon 1.1,True,5eb87d2effd86e000604b377,2482.0,ISS,low-earth,geocentric,396.056,416.692,51.6386,92.69,
+5eb0e4cbb6c3bb0006eeb238,Starlink v0.9,Satellite,False,5eb87d30ffd86e000604b378,13200.0,VLEO,very-low-earth,geocentric,141.753,153.553,52.9736,87.439,
+5eb0e4ccb6c3bb0006eeb239,RADARSAT Constellation,Satellite,False,5eb87d31ffd86e000604b379,1425.0,SSO,sun-synchronous,geocentric,588.779,590.941,97.7591,96.476,
+5eb0e4ccb6c3bb0006eeb23a,DSX,Satellite,False,5eb87d35ffd86e000604b37a,600.0,MEO,medium-earth,geocentric,5976.687,12062.727,42.2432,316.92,
+5eb0e4ccb6c3bb0006eeb23b,COSMIC-2,Satellite,False,5eb87d35ffd86e000604b37a,1668.0,LEO,low-earth,geocentric,,,,,
+5eb0e4ccb6c3bb0006eeb23c,GPIM,Satellite,False,5eb87d35ffd86e000604b37a,180.0,LEO,low-earth,geocentric,,,,,
+5eb0e4ccb6c3bb0006eeb23d,Oculus-ASR,Satellite,False,5eb87d35ffd86e000604b37a,70.0,LEO,low-earth,geocentric,185.6,197.148,28.4976,88.32,
+5eb0e4ccb6c3bb0006eeb23e,OTB 1,Satellite,False,5eb87d35ffd86e000604b37a,138.0,LEO,low-earth,geocentric,706.882,723.459,23.9971,99.091,
+5eb0e4cdb6c3bb0006eeb23f,NPSAT 1,Satellite,False,5eb87d35ffd86e000604b37a,86.0,LEO,low-earth,geocentric,702.638,717.876,24.0005,98.988,
+5eb0e4cdb6c3bb0006eeb240,Prox-1,Satellite,False,5eb87d35ffd86e000604b37a,71.0,LEO,low-earth,geocentric,697.89,712.859,23.9997,98.885,
+5eb0e4cdb6c3bb0006eeb241,LightSail-B,Satellite,False,5eb87d35ffd86e000604b37a,5.0,LEO,low-earth,geocentric,697.89,712.859,23.9997,98.885,
+5eb0e4cdb6c3bb0006eeb242,ARMADILLO,Satellite,False,5eb87d35ffd86e000604b37a,4.0,LEO,low-earth,geocentric,,,,,
+5eb0e4cdb6c3bb0006eeb243,FalconSat 7,Satellite,False,5eb87d35ffd86e000604b37a,5.0,LEO,low-earth,geocentric,,,,,
+5eb0e4cdb6c3bb0006eeb244,E-TBEx A & B,Satellite,False,5eb87d35ffd86e000604b37a,4.0,LEO,low-earth,geocentric,,,,,
+5eb0e4cdb6c3bb0006eeb245,PSat 2,Satellite,False,5eb87d35ffd86e000604b37a,2.0,LEO,low-earth,geocentric,264.727,445.717,28.5119,91.645,
+5eb0e4ceb6c3bb0006eeb246,BRICSat 2,Satellite,False,5eb87d35ffd86e000604b37a,1.0,LEO,low-earth,geocentric,,,,,
+5eb0e4ceb6c3bb0006eeb247,TEPCE 1 & 2,Satellite,False,5eb87d35ffd86e000604b37a,1.5,LEO,low-earth,geocentric,,,,,
+5eb0e4ceb6c3bb0006eeb248,CP9,Satellite,False,5eb87d35ffd86e000604b37a,1.5,LEO,low-earth,geocentric,,,,,
+5eb0e4ceb6c3bb0006eeb249,StangSat,Satellite,False,5eb87d35ffd86e000604b37a,1.0,LEO,low-earth,geocentric,,,,,
+5eb0e4ceb6c3bb0006eeb24a,CRS-18,Dragon 1.1,True,5eb87d36ffd86e000604b37b,2227.7,ISS,low-earth,geocentric,396.799,414.329,51.6451,92.674,
+5eb0e4cfb6c3bb0006eeb24b,Amos-17,Satellite,False,5eb87d37ffd86e000604b37c,6500.0,GTO,geostationary,geocentric,,,,,15.0
+5eb0e4cfb6c3bb0006eeb24c,Starlink-1,Satellite,False,5eb87d39ffd86e000604b37d,15600.0,VLEO,very-low-earth,geocentric,546.009,548.424,53.0565,95.592,
+5eb0e4cfb6c3bb0006eeb24d,CRS-19,Dragon 1.1,True,5eb87d39ffd86e000604b37e,5000.0,ISS,low-earth,geocentric,414.559,421.571,51.6453,92.93,
+5eb0e4cfb6c3bb0006eeb24e,JCSat 18 / Kacific 1,Satellite,False,5eb87d3bffd86e000604b37f,6800.0,GTO,geostationary,geocentric,35786.488,35787.516,0.0446,1436.118,15.0
+5eb0e4cfb6c3bb0006eeb24f,Starlink-2,Satellite,False,5eb87d3cffd86e000604b380,15600.0,VLEO,very-low-earth,geocentric,546.01,548.451,53.0563,95.592,
+5eb0e4d0b6c3bb0006eeb250,Crew Dragon In Flight Abort Test,Crew Dragon,False,5eb87d3dffd86e000604b381,,SO,sub-orbital,geocentric,,,,,
+5eb0e4d0b6c3bb0006eeb251,Starlink-3,Satellite,False,5eb87d3fffd86e000604b382,15600.0,VLEO,very-low-earth,geocentric,546.045,548.405,53.0548,95.592,
+5eb0e4d0b6c3bb0006eeb252,Starlink-4,Satellite,False,5eb87d41ffd86e000604b383,15600.0,VLEO,very-low-earth,geocentric,,,,,
+5eb0e4d0b6c3bb0006eeb253,CRS-20,Dragon 1.1,True,5eb87d42ffd86e000604b384,1977.0,ISS,low-earth,geocentric,408.672,422.564,51.6432,92.88,
+5eb0e4d0b6c3bb0006eeb254,Starlink-5,Satellite,False,5eb87d43ffd86e000604b385,15600.0,VLEO,very-low-earth,geocentric,546.096,548.413,53.0551,95.593,
+5eb0e4d1b6c3bb0006eeb255,Starlink-6,Satellite,False,5eb87d44ffd86e000604b386,15600.0,VLEO,very-low-earth,geocentric,,,,,
+5eb0e4d1b6c3bb0006eeb256,Starlink-7,Satellite,False,5eb87d45ffd86e000604b387,15600.0,VLEO,very-low-earth,geocentric,129.639,166.255,53.0001,87.445,
+5eb0e4d1b6c3bb0006eeb257,CCtCap Demo Mission 2,Crew Dragon,False,5eb87d46ffd86e000604b388,9525.0,ISS,low-earth,geocentric,156.466,362.832,51.6858,89.7,
+5eb0e4d1b6c3bb0006eeb258,Starlink-8,Satellite,False,5eb87d46ffd86e000604b389,15600.0,VLEO,very-low-earth,geocentric,545.9,548.574,53.0533,95.593,
+5eb0e4d1b6c3bb0006eeb259,SAOCOM 1B,Satellite,False,5eb87d47ffd86e000604b38a,1600.0,SSO,sun-synchronous,geocentric,,,,,
+5eb0e4d2b6c3bb0006eeb25b,ANASIS-II,Satellite,False,5eb87d50ffd86e000604b394,,GEO,geosynchronous,geocentric,,,,,15.0
+5eb0e4d2b6c3bb0006eeb25c,GPS III SV03 (Columbus),Satellite,False,5eb87d4affd86e000604b38b,3880.0,MEO,,,,,,,15.0
+5eb0e4d2b6c3bb0006eeb25d,SXM-7,Satellite,False,5eb87d4bffd86e000604b38c,7000.0,GTO,geostationary,geocentric,35781.865,35793.418,0.0539,1436.15,15.0
+5eb0e4d2b6c3bb0006eeb25e,GPS III SV04 (Sacagawea),Satellite,False,5eb87d4cffd86e000604b38d,3681.0,MEO,semi-synchronous,geocentric,20116.88,20247.312,54.4642,717.972,15.0
+5eb0e4d2b6c3bb0006eeb25f,Crew-1,Crew Dragon,False,5eb87d4dffd86e000604b38e,,ISS,low-earth,geocentric,405.905,410.857,51.6413,92.732,
+5eb0e4d2b6c3bb0006eeb261,GPS III SV05,Satellite,False,5eb87d4effd86e000604b390,3681.0,MEO,semi-synchronous,geocentric,20158.208,20206.208,55.2552,717.977,15.0
+5eb0e4d3b6c3bb0006eeb262,CRS-21,Dragon 2.0,False,5eb87d4effd86e000604b391,2972.0,ISS,low-earth,geocentric,201.351,403.636,51.644,90.57,
+5eb0e4d3b6c3bb0006eeb264,Turksat 5A,Satellite,False,5eb87d4fffd86e000604b393,3500.0,GTO,geostationary,geocentric,35786.096,35786.99,0.03,1436.094,15.0
+5ed9858b1f30554030d45c3e,Starlink-9,Satellite,False,5ed9819a1f30554030d45c29,15600.0,VLEO,very-low-earth,geocentric,129.639,166.255,53.0001,87.445,
+5ed9859f1f30554030d45c3f,Starlink-10,Satellite,False,5ed981d91f30554030d45c2a,15600.0,VLEO,very-low-earth,geocentric,545.9,548.574,53.0533,95.593,
+5ed9867c1f30554030d45c40,Sentinel-6 Michael Freilich,Satellite,False,5ed983aa1f30554030d45c31,1440.0,PO,low-earth,geocentric,1331.621,1343.852,66.0444,112.418,
+5ee522e32f1f3d474c758123,BlackSky Global 5-6,Satellite,False,5ed9819a1f30554030d45c29,112.0,SSO,sun-synchronous,geocentric,,,,,3.0
+5ef6a4600059c33cee4a829e,Starlink-11,Satellite,False,5ef6a1e90059c33cee4a828a,15600.0,VLEO,very-low-earth,geocentric,545.929,548.541,53.0539,95.593,
+5ef6a48e0059c33cee4a829f,Starlink-12,Satellite,False,5ef6a2090059c33cee4a828b,15600.0,VLEO,very-low-earth,geocentric,546.032,548.441,53.0554,95.593,
+5ef6a4d50059c33cee4a82a1,Starlink-13,Satellite,False,5ef6a2bf0059c33cee4a828c,15600.0,VLEO,very-low-earth,geocentric,189.518,205.12,53.0515,88.439,
+5ef6a4ea0059c33cee4a82a2,Starlink-14,Satellite,False,5ef6a2e70059c33cee4a8293,15600.0,VLEO,very-low-earth,geocentric,146.351,156.732,53.0227,87.518,
+5f839ac7818d8b59f5740d48,NROL-108,Satellite,False,5f8399fb818d8b59f5740d43,,,low-earth,geocentric,,,,,
+5fb95c263a88ae63c9546044,Starlink-15,Satellite,False,5fb95b3f3a88ae63c954603c,15600.0,VLEO,very-low-earth,geocentric,,,,,
+5fbfedba54ceb10a5664c813,Starlink-16,Satellite,False,5fbfecce54ceb10a5664c80a,15600.0,VLEO,very-low-earth,geocentric,,,,,
+5fbfedc654ceb10a5664c814,Starlink-17,Satellite,False,5fbfecfe54ceb10a5664c80b,15600.0,VLEO,very-low-earth,geocentric,,,,,
+5fd3871a7faea57d297c86c6,Transporter-1,Satellite,False,5fd386aa7faea57d297c86c1,,SSO,sun-synchronous,geocentric,,,,,
+5fe3b2abb3467846b3242172,SARah 1,Satellite,False,5fe3af43b3467846b324215e,2200.0,SSO,sun-synchronous,geocentric,,,,,
+5fe3b3adb3467846b3242173,Crew-2,Crew Dragon,True,5fe3af58b3467846b324215f,,ISS,low-earth,geocentric,417.164,426.118,51.578,93.004,
+5fe3b3bab3467846b3242174,Crew-3,Crew Dragon,False,5fe3b15eb3467846b324216d,12519.0,ISS,low-earth,geocentric,213.869,406.271,51.6404,90.724,
+5fe3b57db3467846b324217a,SXM-8,Satellite,False,5fe3af6db3467846b3242160,7000.0,GTO,geostationary,geocentric,35774.413,35801.568,0.042,1436.168,15.0
+5fe3b642b3467846b324217b,CRS-22,Dragon 2.0,True,5fe3af84b3467846b3242161,3328.0,ISS,low-earth,geocentric,202.053,317.525,51.6394,89.703,
+5fe3b86eb3467846b324217c,USSF-44,Satellite,False,6243aec2af52800c6e91925d,3700.0,GTO,geostationary,geocentric,,,,,
+5fe3c080b3467846b3242190,Türksat 5B,Satellite,False,5fe3afc1b3467846b3242164,3500.0,GTO,geostationary,geocentric,35770.241,35803.644,0.0692,1436.115,15.0
+5fe3c4a6b3467846b3242192,DART (Double Asteroid Redirection Test),Satellite,False,5fe3b107b3467846b324216b,670.0,TLI,,heliocentric,235.987,310.75,64.77,89.979,
+5fe3c4f2b3467846b3242193,CRS-23,Dragon 2.0,True,5fe3b11eb3467846b324216c,,ISS,low-earth,geocentric,,,,,
+5ff655769257f579ee3a6c64,Starlink-18,Satellite,False,5ff6554f9257f579ee3a6c5f,15600.0,VLEO,very-low-earth,geocentric,,,,,
+600f9bc08f798e2a4d5f97a4,Starlink-19,Satellite,False,600f9a5e8f798e2a4d5f979c,15600.0,VLEO,very-low-earth,geocentric,,,,,
+600f9bcb8f798e2a4d5f97a5,Starlink-20,Satellite,False,600f9a718f798e2a4d5f979d,15600.0,VLEO,very-low-earth,geocentric,,,,,
+600f9bd88f798e2a4d5f97a6,Starlink-21,Satellite,False,600f9a8d8f798e2a4d5f979e,15600.0,VLEO,very-low-earth,geocentric,,,,,
+60428afbc041c16716f73cdd,Starlink-22,Satellite,False,60428aafc041c16716f73cd7,15600.0,VLEO,very-low-earth,geocentric,,,,,
+60428b02c041c16716f73cde,Starlink-23,Satellite,False,60428ac4c041c16716f73cd8,15600.0,VLEO,very-low-earth,geocentric,,,,,
+605b4be3aa5433645e37d046,Starlink-24,Satellite,False,605b4b6aaa5433645e37d03f,15600.0,VLEO,very-low-earth,geocentric,,,,,
+605b4befaa5433645e37d047,Starlink-25,Satellite,False,605b4b7daa5433645e37d040,15600.0,VLEO,very-low-earth,geocentric,,,,,
+605b4bfcaa5433645e37d048,Starlink-26,Satellite,False,605b4b95aa5433645e37d041,13520.0,VLEO,very-low-earth,geocentric,,,,,
+6079bd5e9a06446e8c61bf7c,Starlink-27,Satellite,False,6079bd1c9a06446e8c61bf76,15600.0,VLEO,very-low-earth,geocentric,,,,,
+6079bd679a06446e8c61bf7d,Starlink-28,Satellite,False,6079bd399a06446e8c61bf77,15600.0,VLEO,very-low-earth,geocentric,,,,,
+607a382f5a906a44023e0867,Inspiration4,Crew Dragon,True,607a37565a906a44023e0866,,LEO,low-earth,geocentric,,,,,
+608ac397eb3e50044e3630e7,Transporter-2,Satellite,False,600f9b6d8f798e2a4d5f979f,,SSO,sun-synchronous,geocentric,,,,,
+609f48374a12e4692eae4667,Capella-6,Satellite,False,605b4b95aa5433645e37d041,112.0,LEO,low-earth,geocentric,,,,,
+609f49c64a12e4692eae4668,Tyvak-0130,Satellite,False,605b4b95aa5433645e37d041,,LEO,low-earth,geocentric,,,,,
+60e3bf3373359e1e20335c3c,Starlink 2-1 (v1.5),Satellite,False,60e3bf0d73359e1e20335c37,15600.0,PO,polar,geocentric,,,,,
+6161d0af6db1a92bfba85352,Starlink 2-2 (v1.5),Satellite,False,6161c7d26db1a92bfba85346,13260.0,PO,polar,geocentric,,,,,
+6161d0f26db1a92bfba85355,Starlink 4-3 (v1.5),Satellite,False,6161c94c6db1a92bfba85349,13260.0,PO,polar,geocentric,,,,,
+6161d22a6db1a92bfba85357,CRS-24,Dragon 2.0,True,6161d2006db1a92bfba85356,,ISS,low-earth,geocentric,,,,,
+6161d3a06db1a92bfba8535a,CSG-2,Satellite,False,6161d32d6db1a92bfba85359,2240.0,SSO,sun-synchronous,geocentric,,,,,
+6175aaacefa4314085aa9c56,NROL-87,Satellite,False,61bf3e31cd5ab50b0d936345,,LEO,sun-synchronous,geocentric,,,,,
+618fabf0563d69573ed8caa6,Starlink 4-1 (v1.5),Satellite,False,618faad2563d69573ed8ca9d,13260.0,LEO,low-earth,geocentric,,,,,
+61bbac16437241381bf70632,Starlink 4-4 (v1.5),Satellite,False,61bba806437241381bf7061e,13260.0,PO,polar,geocentric,,,,,
+61c1f395a4a2462678cbf46e,IPXE,Satellite,False,6161c88d6db1a92bfba85348,330.0,LEO,low-earth,geocentric,583.746,599.119,0.22940000000000002,96.509,2.0
+61d5ece4f88e4c5fc91f1ebb,Starlink 4-5 (v1.5),Satellite,False,61d5eca1f88e4c5fc91f1eb7,13260.0,VLEO,very-low-earth,geocentric,,,,,
+61e05516be8d8b66799018d4,Starlink 4-6 (v1.5),Satellite,False,61e048bbbe8d8b66799018d0,13260.0,VLEO,very-low-earth,geocentric,,,,,
+61e05520be8d8b66799018d5,Starlink 4-7 (v1.5),Satellite,False,61e048ffbe8d8b66799018d1,13260.0,VLEO,very-low-earth,geocentric,,,,,
+61eef9b89eb1064137a1bd72,IM-1 Nova-C,Satellite,False,61eef7489eb1064137a1bd6f,1908.0,TLI,lunar,trans-lunar-injection,,,,,
+61eefb129eb1064137a1bd74,Ax-1,Dragon 2.0,True,61eefaa89eb1064137a1bd73,,ISS,low-earth,geocentric,,,,,
+61fc02e1e0dc5662b76489b4,Starlink 4-8 (v1.5),Satellite,False,61fc01dae0dc5662b76489a7,13260.0,VLEO,very-low-earth,geocentric,,,,,
+61fc0334e0dc5662b76489b5,Starlink 4-11 (v1.5),Satellite,False,61fc0203e0dc5662b76489a8,13260.0,VLEO,very-low-earth,geocentric,,,,,
+61fc0379e0dc5662b76489b6,Starlink 4-9 (v1.5),Satellite,False,61fc0224e0dc5662b76489ab,13260.0,VLEO,very-low-earth,geocentric,,,,,
+61fc0382e0dc5662b76489b7,Starlink 4-10 (v1.5),Satellite,False,61fc0243e0dc5662b76489ae,13260.0,VLEO,very-low-earth,geocentric,,,,,
+623491e5f051102e1fcedac9,Starlink 4-12 (v1.5),Satellite,False,6234908cf051102e1fcedac4,13260.0,VLEO,very-low-earth,geocentric,,,,,
+6243af62af52800c6e919260,Transporter-4,Satellite,False,6243ad8baf52800c6e919252,,SSO,sun-synchronous,geocentric,,,,,
+6243af9faf52800c6e919261,Starlink 4-14 (v1.5),Satellite,False,6243ada6af52800c6e919253,13260.0,VLEO,very-low-earth,geocentric,,,,,
+6243b036af52800c6e919262,NROL-85,Satellite,False,6243adcaaf52800c6e919254,,LEO,low-earth,geocentric,,,,,
+6243b1cdaf52800c6e919265,Crew-4,Crew Dragon,False,6243ade2af52800c6e919255,,ISS,low-earth,geocentric,,,,,
+6243b286af52800c6e919266,Nilesat-301,Satellite,False,6243ae0aaf52800c6e919257,3938.0,GEO,geostationary,geocentric,,,,,15.0
+6243b39daf52800c6e919267,Transporter-5,Satellite,False,6243ae24af52800c6e919258,,SSO,sun-synchronous,geocentric,,,,,
+6243b788af52800c6e91926b,"O3b mPower 1,2",Satellite,False,6243ba08af52800c6e919270,5100.0,MEO,medium-earth,geocentric,,,,,
+6243b835af52800c6e91926d,CRS-25,Dragon 2.0,True,6243ae40af52800c6e919259,,ISS,low-earth,geocentric,,,,,
+6243b896af52800c6e91926e,WorldView Legion 1 & 2,Satellite,False,6243ae58af52800c6e91925a,,SSO,sun-synchronous,geocentric,,,,,
+6243b93caf52800c6e91926f,SES-22,Satellite,False,6243aea5af52800c6e91925c,3500.0,MEO,medium-earth,geocentric,,,,,
+6243ba4faf52800c6e919271,O3b mPower 3.4,Satellite,False,6243ae7daf52800c6e91925b,5100.0,MEO,medium-earth,geocentric,,,,,
+625829cf5988f159024b9648,Starlink 4-15 (v1.5),Satellite,False,625828f25988f159024b9643,13260.0,VLEO,very-low-earth,geocentric,,,,,
+625829d75988f159024b9649,Starlink 4-13 (v1.5),Satellite,False,6258290d5988f159024b9644,13260.0,VLEO,very-low-earth,geocentric,,,,,
+62582aa55988f159024b964d,Starlink 4-16 (v1.5),Satellite,False,62582a6f5988f159024b964b,13260.0,VLEO,very-low-earth,geocentric,,,,,
+62582aad5988f159024b964e,Starlink 4-17 (v1.5),Satellite,False,62582a855988f159024b964c,13260.0,VLEO,very-low-earth,geocentric,,,,,
+62615ee40ec008379be596fd,Starlink 4-18 (v1.5),Satellite,False,62615ebc0ec008379be596fa,13260.0,VLEO,very-low-earth,geocentric,,,,,
+6278484e57b51b752c5c5a63,Starlink 4-19 (v1.5),Satellite,False,6278481757b51b752c5c5a5f,13260.0,VLEO,very-low-earth,geocentric,,,,,
+628026a42c0aa958437dcf7c,Psyche,Satellite,False,628025222c0aa958437dcf76,2608.0,BEO,beyond-earth,geocentric,,,,,
+628027062c0aa958437dcf7d,Janus,Satellite,False,628025222c0aa958437dcf76,72.0,BEO,beyond-earth,geocentric,,,,,
+62adecbcd26f4f711fa53848,Globalstar FM15,Satellite,False,62a9f08b20413d2695d88711,700.0,LEO,low-earth,geocentric,,,,,
+62dd73ed202306255024d145,Crew-5,Crew Dragon,False,62dd70d5202306255024d139,,ISS,low-earth,geocentric,,,,,
+630bccc6d36448026ab01639,Starlink 4-21 (v1.5),Satellite,False,62a9f0c920413d2695d88712,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bccd6d36448026ab0163a,Starlink 3-1 (v1.5),Satellite,False,62a9f0e320413d2695d88713,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bce10d36448026ab0163b,Starlink 4-22 (v1.5),Satellite,False,62a9f0f820413d2695d88714,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bce49d36448026ab0163c,Starlink 3-2 (v1.5),Satellite,False,62a9f10b20413d2695d88715,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bce79d36448026ab0163d,Starlink 4-25 (v1.5),Satellite,False,62a9f12820413d2695d88716,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bcea1d36448026ab0163e,Starlink 4-26 (v1.5),Satellite,False,62a9f8b320413d2695d8871b,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bceadd36448026ab0163f,Starlink 4-27 (v1.5),Satellite,False,62f3b5200f55c50e192a4e6c,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bceb8d36448026ab01640,Starlink 3-3 (v1.5),Satellite,False,62f3b4ff0f55c50e192a4e6b,13260.0,VLEO,very-low-earth,geocentric,,,,,
+630bcfe1d36448026ab01641,KPLO,Satellite,False,62a9f86420413d2695d88719,678.0,TLI,lunar,trans-lunar-injection,244.723,249.095,29.5,89.442,1.0
+630f63bf18702d4844fb5391,Starlink 3-4 (v1.5),Satellite,False,62f3b53a0f55c50e192a4e6f,13260.0,VLEO,very-low-earth,geocentric,,,,,
+631614d7ffc78f3b85670716,Starlink 4-23 (v1.5),Satellite,False,62f3b5290f55c50e192a4e6d,13260.0,VLEO,very-low-earth,geocentric,,,,,
+631614e9ffc78f3b85670717,Starlink 4-20 (v1.5),Satellite,False,62f3b5330f55c50e192a4e6e,13260.0,VLEO,very-low-earth,geocentric,,,,,
+63161610ffc78f3b85670718,Starlink 4-2 (v1.5),Satellite,False,62a9f89a20413d2695d8871a,13260.0,VLEO,very-low-earth,geocentric,,,,,
+63161699ffc78f3b85670719,Starlink 4-34 (v1.5),Satellite,False,63161329ffc78f3b8567070b,13260.0,VLEO,very-low-earth,geocentric,,,,,
+631616a7ffc78f3b8567071a,Starlink 4-35 (v1.5),Satellite,False,63161339ffc78f3b8567070c,13260.0,VLEO,very-low-earth,geocentric,,,,,
+631616aeffc78f3b8567071b,Starlink 4-36 (v1.5),Satellite,False,62f3b5200f55c50e192a4e6c,13260.0,VLEO,very-low-earth,geocentric,,,,,
+63161760ffc78f3b8567071c,TTL-1,Satellite,False,62f3b5200f55c50e192a4e6c,,PO,polar,geocentric,,,,,
+631617fbffc78f3b8567071d,Varuna-TDM,Satellite,False,62f3b5330f55c50e192a4e6e,180.0,VLEO,very-low-earth,geocentric,,,,,
+63161872ffc78f3b8567071e,BlueWalker 3,Satellite,False,62a9f89a20413d2695d8871a,1500.0,VLEO,very-low-earth,geocentric,,,,,
