@@ -10,6 +10,24 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 
+# set the job interval 
+# staging path 
+# project home directory
+# airflow home directory
+# Mongodb connection path
+# json and csv file location
+# fetch launches data from spacex api and store into json file
+# load fetched data into mongodb spacex_lake database and launches collection
+# transform json data and store it into csv file
+# define default arguments for dag
+# define the dag
+# define extract task with python operator
+# define transform task
+# define load mongodb task 
+# define load postgres task
+# define task to load into Google Cloud Storage
+# define task to load BigQuery from GCS
+# define the task dependencies
 
 # set the job interval 
 SCHEDULE_INTERVAL = "@once"
