@@ -1,0 +1,175 @@
+[2023-09-20T12:41:26.136+0530] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-09-20T12:41:26.137+0530] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-09-20T12:41:26.137+0530] {manager.py:489} INFO - Checking for new files in /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags every 300 seconds
+[2023-09-20T12:41:26.137+0530] {manager.py:759} INFO - Searching for files in /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags
+[2023-09-20T12:41:26.140+0530] {manager.py:762} INFO - There are 5 files in /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags
+[2023-09-20T12:41:27.932+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           0           0
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           0
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            0           0
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           0           0
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.61s           2023-09-20T07:11:27
+================================================================================
+[2023-09-20T12:41:59.002+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.42s           2023-09-20T07:11:31
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.42s           2023-09-20T07:11:59
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.61s           2023-09-20T07:11:29
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.61s           2023-09-20T07:11:32
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.62s           2023-09-20T07:11:34
+================================================================================
+[2023-09-20T12:42:29.782+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.41s           2023-09-20T07:12:01
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:12:29
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.42s           2023-09-20T07:12:00
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:12:03
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:12:04
+================================================================================
+[2023-09-20T12:43:00.480+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.31s           2023-09-20T07:12:32
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:13:00
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.41s           2023-09-20T07:12:31
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:12:34
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.42s           2023-09-20T07:12:35
+================================================================================
+[2023-09-20T12:43:30.961+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:13:03
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:13:30
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:13:01
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:13:04
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:13:05
+================================================================================
+[2023-09-20T12:44:01.349+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:13:33
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.32s           2023-09-20T07:14:01
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:13:32
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:13:34
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:13:36
+================================================================================
+[2023-09-20T12:44:31.750+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:14:03
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:14:31
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:14:02
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:14:05
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.32s           2023-09-20T07:14:06
+================================================================================
+[2023-09-20T12:45:02.211+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:14:34
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:15:02
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:14:33
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:14:35
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:14:37
+================================================================================
+[2023-09-20T12:45:32.691+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.22s           2023-09-20T07:15:04
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.32s           2023-09-20T07:15:32
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.32s           2023-09-20T07:15:03
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:15:06
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:15:07
+================================================================================
+[2023-09-20T12:46:03.127+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:15:35
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:16:03
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:15:34
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:15:36
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:15:38
+================================================================================
+[2023-09-20T12:46:26.146+0530] {manager.py:759} INFO - Searching for files in /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags
+[2023-09-20T12:46:26.151+0530] {manager.py:762} INFO - There are 5 files in /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags
+[2023-09-20T12:46:33.476+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:16:05
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:16:33
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:16:04
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:16:07
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.41s           2023-09-20T07:16:08
+================================================================================
+[2023-09-20T12:47:04.127+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:16:46
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:17:04
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:16:34
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:16:37
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:16:39
+================================================================================
+[2023-09-20T12:47:34.741+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           0           1  0.21s           2023-09-20T07:17:16
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.41s           2023-09-20T07:17:34
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:17:05
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.41s           2023-09-20T07:17:08
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:17:09
+================================================================================
+[2023-09-20T12:48:05.078+0530] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_history.py                            1           0  0.31s           2023-09-20T07:18:05
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_roadster.py                           1           0  0.31s           2023-09-20T07:17:36
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py                           1           0  0.41s           2023-09-20T07:17:41
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_rockets.py                            1           0  0.31s           2023-09-20T07:17:38
+/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py                           1           0  0.31s           2023-09-20T07:17:40
+================================================================================

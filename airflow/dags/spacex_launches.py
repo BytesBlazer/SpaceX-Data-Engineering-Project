@@ -17,12 +17,12 @@ SPACEX_STAGING = os.environ.get("SPACEX_STAGING")
 SPACEX_HOME = os.environ.get("SPACEX_HOME")
 AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME")
 MONGO_CONNECTION = "mongodb://localhost:27017"
-JSON_FILE_LOCATION = f"{SPACEX_STAGING}/json/spacex_payloads.json"
-CSV_FILE_LOCATION = f"{SPACEX_STAGING}/csv/spacex_payloads_transformed.csv"
+JSON_FILE_LOCATION = f"{SPACEX_STAGING}/json/spacex_launches.json"
+CSV_FILE_LOCATION = f"{SPACEX_STAGING}/csv/spacex_launches_transformed.csv"
 
 # Task 1: Extract data from SpaceX API
 def extract():
-    url = "https://api.spacexdata.com/v4/payloads"
+    url = "https://api.spacexdata.com/v4/launches"
     response = requests.get(url)
     
     if response.status_code == 200:
@@ -30,10 +30,10 @@ def extract():
             json.dump(response.json(), file)
 
 # Task 2: Load extracted data into MongoDB
-def load_to_mongo():
+def load_mongo():
     client = MongoClient(MONGO_CONNECTION)
     db = client["spacex_lake"]
-    collection = db["payloads"]
+    collection = db["launches"]
 
     with open(JSON_FILE_LOCATION, "r") as file:
         records = json.load(file)
@@ -44,22 +44,16 @@ def load_to_mongo():
 
 # Task 3: Transform data into CSV format
 def transform():
-    fields = ["id","name","type","reused",
-              "launch","mass_kg","orbit",
-              "regime","reference_system","periapsis_km",
-              "apoapsis_km","inclination_deg",
-              "period_min","lifespan_years"]
+    fields = ['id','rocket','success','launchpad','flight_number','name','date_utc','upcoming','links']
+    launches = pd.read_json(JSON_FILE_LOCATION)
+    launches = launches[fields]
     
-    payloads = pd.read_json(f"{SPACEX_STAGING}/json/spacex_payloads.json")
-    pay_man = payloads[["id", "manufacturers"]]
-    pay_man = pay_man.explode("manufacturers", ignore_index=True)
-    pay_man.columns = ["payload_id", "manufacturer"]
-
-    payloads = payloads[fields]
-    payloads = payloads.set_index("id")
-
-    payloads.to_csv(CSV_FILE_LOCATION)
-    pay_man.to_csv(f"{SPACEX_STAGING}/csv/spacex_payload_manufacturers_transformed.csv", index_label="id")
+    launches["success"] = launches["success"].astype("boolean")
+    launches["links"] = launches["links"].apply(lambda row: row["webcast"])
+    launches = launches.set_index("id")
+    
+    launches.rename({"links": "webcast"}, axis=1)
+    launches.to_csv(CSV_FILE_LOCATION)
 
 # Define default arguments for the DAG
 default_args = {
@@ -73,8 +67,8 @@ default_args = {
 
 # Create the DAG
 dag = DAG(
-    dag_id = "spacex_payloads_pipeline",
-    description = "This DAG extracts payloads data from the API and loads it into MongoDB payloads collection",
+    dag_id = "spacex_launches_pipeline",
+    description = "This DAG extracts launches data from the API and loads it into MongoDB launches collection",
     schedule_interval = SCHEDULE_INTERVAL,
     template_searchpath = [f"{AIRFLOW_HOME}/dags/"],
     default_args = default_args
@@ -82,38 +76,38 @@ dag = DAG(
 
 # Task 1: Extract data from SpaceX API
 extract_task = PythonOperator(
-    task_id = "spacex_payloads_extract",
+    task_id = "spacex_launches_extract",
     python_callable = extract,
     dag = dag
 )
 
 # Task 2: Transform data into CSV format
 transform_task = PythonOperator(
-    task_id = "spacex_payloads_transform_csv",
+    task_id = "spacex_launches_transform_to_csv",
     python_callable = transform,
     dag = dag
 )
 
 # Task 3: Load data into MongoDB
 load_mongo_task = PythonOperator(
-    task_id = "spacex_payloads_load_to_mongo",
-    python_callable = load_to_mongo,
+    task_id = "spacex_launches_load_to_mongo",
+    python_callable = load_mongo,
     dag = dag
 )
 
 # Task 4: Load data into PostgreSQL
 load_postgres_task = PostgresOperator(
-    task_id="spacex_payloads_csv_to_postgres",
+    task_id="spacex_launches_csv_to_postgres",
     postgres_conn_id="spacex_postgres",
-    sql="sql/copy_payloads.sql",
+    sql="sql/copy_launches.sql",
     dag=dag
 )
 
 # Task 5: Load CSV data into Google Cloud Storage (GCS)
 load_gcs_task = LocalFilesystemToGCSOperator(
-    task_id = 'spacex_payloads_csv_gcs',
+    task_id = 'spacex_launches_csv_gcs',
     src = CSV_FILE_LOCATION,
-    dst = 'spacex_payloads_transformed.csv',
+    dst = 'spacex_launches_transformed.csv',
     bucket = "spacex_data_lake",
     gcp_conn_id = 'google_cloud_default',
     dag = dag
@@ -121,31 +115,10 @@ load_gcs_task = LocalFilesystemToGCSOperator(
 
 # Task 6: Load data from GCS into BigQuery
 load_bigquery_task = GCSToBigQueryOperator(
-    task_id = "spcex_payloads_gcs_bigquery",
+    task_id = "spacex_launches_gcs_bigquery",
     bucket="spacex_data_lake",
-    source_objects=["spacex_payloads_transformed.csv"],
-    destination_project_dataset_table="SpaceX_dataset.Payloads",
-    gcp_conn_id="google_cloud_default",
-    write_disposition="WRITE_TRUNCATE",
-    dag=dag
-)
-
-# Task 7: Load CSV data into Google Cloud Storage (GCS)
-load_manufacturers_gcs_task = LocalFilesystemToGCSOperator(
-    task_id = 'spacex_manufacturers_csv_gcs',
-    src = CSV_FILE_LOCATION,
-    dst = 'spacex_payload_manufacturers_transformed.csv',
-    bucket = "spacex_data_lake",
-    gcp_conn_id = 'google_cloud_default',
-    dag = dag
-)
-
-# Task 8: Load manufacturer data from GCS into BigQuery
-load_manufacturers_bigquery_task = GCSToBigQueryOperator(
-    task_id = "spcex_payload_manufacturer_gcs_bigquery_manufacturer",
-    bucket="spacex_data_lake",
-    source_objects=["spacex_payload_manufacturers_transformed.csv"],
-    destination_project_dataset_table="SpaceX_dataset.Payloads_Manufacturer",
+    source_objects=["spacex_launches_transformed.csv"],
+    destination_project_dataset_table="SpaceX_dataset.Launches",
     gcp_conn_id="google_cloud_default",
     write_disposition="WRITE_TRUNCATE",
     dag=dag
@@ -153,6 +126,5 @@ load_manufacturers_bigquery_task = GCSToBigQueryOperator(
 
 # Define task dependencies
 extract_task >> transform_task
-transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturers_gcs_task]
+transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task]
 load_gcs_task >> load_bigquery_task
-load_manufacturers_gcs_task >> load_manufacturers_bigquery_task

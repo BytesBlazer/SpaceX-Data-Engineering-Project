@@ -1,0 +1,201 @@
+[2023-09-20T12:41:33.921+0530] {processor.py:157} INFO - Started process (PID=13297) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:41:33.922+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:41:33.926+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:33.925+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:41:34.209+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.208+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:41:34.213+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:41:34.354+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.354+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T12:41:34.370+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.369+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T12:41:34.381+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.381+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T12:41:34.381+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.381+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:spacex_launches_pipeline' as access control is unset.
+[2023-09-20T12:41:34.382+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.382+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:41:34.400+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.399+0530] {dag.py:2937} INFO - Creating ORM DAG for spacex_launches_pipeline
+[2023-09-20T12:41:34.412+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:34.412+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:41:34.438+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.522 seconds
+[2023-09-20T12:42:04.591+0530] {processor.py:157} INFO - Started process (PID=13317) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:42:04.592+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:42:04.596+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:04.596+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:42:04.700+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:04.699+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:42:04.706+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:42:04.740+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:04.739+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:42:04.772+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:04.772+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:42:04.802+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.216 seconds
+[2023-09-20T12:42:35.109+0530] {processor.py:157} INFO - Started process (PID=13516) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:42:35.114+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:42:35.118+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:35.118+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:42:35.256+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:35.255+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:42:35.266+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:42:35.318+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:35.317+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:42:35.362+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:35.361+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:42:35.402+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.303 seconds
+[2023-09-20T12:43:05.608+0530] {processor.py:157} INFO - Started process (PID=13585) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:43:05.610+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:43:05.615+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:05.614+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:43:05.713+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:05.712+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:43:05.719+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:43:05.749+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:05.748+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:43:05.782+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:05.781+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:43:05.811+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.209 seconds
+[2023-09-20T12:43:36.078+0530] {processor.py:157} INFO - Started process (PID=13614) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:43:36.080+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:43:36.085+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:36.084+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:43:36.241+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:36.239+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:43:36.247+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:43:36.278+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:36.277+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:43:36.309+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:36.309+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:43:36.338+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.266 seconds
+[2023-09-20T12:44:06.454+0530] {processor.py:157} INFO - Started process (PID=13645) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:44:06.455+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:44:06.459+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:06.459+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:44:06.555+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:06.553+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:44:06.560+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:44:06.591+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:06.590+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:44:06.627+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:06.627+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:44:06.660+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.211 seconds
+[2023-09-20T12:44:36.864+0530] {processor.py:157} INFO - Started process (PID=13677) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:44:36.866+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:44:36.870+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:36.870+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:44:36.965+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:36.964+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:44:36.970+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:44:37.002+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:37.001+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:44:37.032+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:37.031+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:44:37.060+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.202 seconds
+[2023-09-20T12:45:07.351+0530] {processor.py:157} INFO - Started process (PID=13715) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:45:07.353+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:45:07.358+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:07.357+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:45:07.480+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:07.479+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:45:07.486+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:45:07.516+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:07.515+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:45:07.545+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:07.545+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:45:07.575+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.230 seconds
+[2023-09-20T12:45:37.825+0530] {processor.py:157} INFO - Started process (PID=13756) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:45:37.827+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:45:37.831+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:37.830+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:45:37.927+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:37.925+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:45:37.932+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:45:37.964+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:37.961+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:45:37.995+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:37.994+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:45:38.023+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.204 seconds
+[2023-09-20T12:46:08.259+0530] {processor.py:157} INFO - Started process (PID=13791) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:46:08.261+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:46:08.270+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:08.269+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:46:08.436+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:08.433+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:46:08.443+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:46:08.487+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:08.486+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:46:08.531+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:08.531+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:46:08.578+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.328 seconds
+[2023-09-20T12:46:38.832+0530] {processor.py:157} INFO - Started process (PID=13832) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:46:38.834+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:46:38.838+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:38.838+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:46:38.934+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:38.932+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:46:38.939+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:46:38.968+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:38.968+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:46:39.000+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:39.000+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:46:39.028+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.202 seconds
+[2023-09-20T12:47:09.321+0530] {processor.py:157} INFO - Started process (PID=13860) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:47:09.322+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:47:09.326+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:09.326+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:47:09.423+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:09.422+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:47:09.429+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:47:09.462+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:09.461+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:47:09.501+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:09.501+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:47:09.531+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.215 seconds
+[2023-09-20T12:47:39.715+0530] {processor.py:157} INFO - Started process (PID=13894) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:47:39.717+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:47:39.721+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:39.721+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:47:39.816+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:39.814+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:47:39.821+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:47:39.851+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:39.850+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:47:39.880+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:39.880+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:47:39.913+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.203 seconds
+[2023-09-20T12:48:10.217+0530] {processor.py:157} INFO - Started process (PID=13928) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:48:10.219+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py for tasks to queue
+[2023-09-20T12:48:10.224+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:10.223+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:48:10.381+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:10.380+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_launches.sql
+[2023-09-20T12:48:10.387+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_launches_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py
+[2023-09-20T12:48:10.427+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:10.425+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:48:10.470+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:10.470+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_launches_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:48:10.517+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_launches.py took 0.306 seconds

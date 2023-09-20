@@ -1,0 +1,215 @@
+[2023-09-20T12:41:30.757+0530] {processor.py:157} INFO - Started process (PID=13294) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:41:30.759+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:41:30.762+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:30.762+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:41:31.047+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:41:31.042+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:41:31.052+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:41:31.073+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.320 seconds
+[2023-09-20T12:42:01.554+0530] {processor.py:157} INFO - Started process (PID=13315) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:42:01.555+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:42:01.559+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:01.559+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:42:01.877+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:01.872+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:42:01.882+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:42:01.902+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.353 seconds
+[2023-09-20T12:42:32.346+0530] {processor.py:157} INFO - Started process (PID=13463) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:42:32.354+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:42:32.358+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:32.357+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:42:32.505+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:42:32.499+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:42:32.510+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:42:32.538+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.197 seconds
+[2023-09-20T12:43:02.947+0530] {processor.py:157} INFO - Started process (PID=13582) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:43:02.949+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:43:02.953+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:02.952+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:43:03.054+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:03.049+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:43:03.059+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:43:03.084+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.142 seconds
+[2023-09-20T12:43:33.420+0530] {processor.py:157} INFO - Started process (PID=13611) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:43:33.422+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:43:33.427+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:33.427+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:43:33.528+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:43:33.523+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:43:33.533+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:43:33.557+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.143 seconds
+[2023-09-20T12:44:03.791+0530] {processor.py:157} INFO - Started process (PID=13642) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:44:03.792+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:44:03.797+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:03.796+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:44:03.896+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:03.891+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:44:03.901+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:44:03.925+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.141 seconds
+[2023-09-20T12:44:34.192+0530] {processor.py:157} INFO - Started process (PID=13674) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:44:34.193+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:44:34.198+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:34.197+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:44:34.327+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:44:34.317+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:44:34.332+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:44:34.369+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.183 seconds
+[2023-09-20T12:45:04.701+0530] {processor.py:157} INFO - Started process (PID=13712) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:45:04.702+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:45:04.706+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:04.705+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:45:04.815+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:04.809+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:45:04.819+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:45:04.842+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.147 seconds
+[2023-09-20T12:45:35.145+0530] {processor.py:157} INFO - Started process (PID=13753) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:45:35.147+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:45:35.152+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:35.151+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:45:35.247+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:45:35.242+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:45:35.252+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:45:35.280+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.141 seconds
+[2023-09-20T12:46:05.564+0530] {processor.py:157} INFO - Started process (PID=13788) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:05.566+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:46:05.571+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:05.570+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:05.673+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:05.667+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:46:05.677+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:05.700+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.142 seconds
+[2023-09-20T12:46:35.906+0530] {processor.py:157} INFO - Started process (PID=13826) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:35.908+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:46:35.912+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:35.912+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:36.012+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:36.006+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 146, in <module>
+    transform_task >> [load_mongo_task, load_postgres_task, load_gcs_task, load_manufacturer_gcs_task]
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_bigquery_task'?
+[2023-09-20T12:46:36.016+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:36.039+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.139 seconds
+[2023-09-20T12:46:46.250+0530] {processor.py:157} INFO - Started process (PID=13840) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:46.251+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:46:46.255+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:46.255+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:46.349+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:46:46.346+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 158, in <module>
+    load_manufacturer_gcs_task >> load_manufacturers_bigquery_task
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_gcs_task'?
+[2023-09-20T12:46:46.351+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:46:46.373+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.130 seconds
+[2023-09-20T12:47:16.799+0530] {processor.py:157} INFO - Started process (PID=13872) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:47:16.801+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:47:16.805+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:16.805+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:47:16.899+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:16.896+0530] {dagbag.py:347} ERROR - Failed to import: /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py", line 158, in <module>
+    load_manufacturer_gcs_task >> load_manufacturers_bigquery_task
+NameError: name 'load_manufacturer_gcs_task' is not defined. Did you mean: 'load_manufacturers_gcs_task'?
+[2023-09-20T12:47:16.902+0530] {processor.py:841} WARNING - No viable dags retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:47:16.924+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.131 seconds
+[2023-09-20T12:47:41.105+0530] {processor.py:157} INFO - Started process (PID=13897) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:47:41.106+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:47:41.111+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.110+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:47:41.207+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.206+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_payloads.sql
+[2023-09-20T12:47:41.213+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_payloads_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:47:41.375+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.375+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T12:47:41.390+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.390+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T12:47:41.401+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.401+0530] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T12:47:41.402+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.401+0530] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:spacex_payloads_pipeline' as access control is unset.
+[2023-09-20T12:47:41.403+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.402+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:47:41.419+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.419+0530] {dag.py:2937} INFO - Creating ORM DAG for spacex_payloads_pipeline
+[2023-09-20T12:47:41.434+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:47:41.434+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_payloads_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:47:41.463+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.363 seconds
+[2023-09-20T12:48:11.678+0530] {processor.py:157} INFO - Started process (PID=13929) to work on /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:48:11.680+0530] {processor.py:829} INFO - Processing file /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py for tasks to queue
+[2023-09-20T12:48:11.685+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:11.684+0530] {dagbag.py:539} INFO - Filling up the DagBag from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:48:11.783+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:11.781+0530] {templater.py:78} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/airflow/template/templater.py", line 76, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/osairis/SpaceX-Data-Engineering-Project/myvenv/lib/python3.10/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/copy_payloads.sql
+[2023-09-20T12:48:11.788+0530] {processor.py:839} INFO - DAG(s) dict_keys(['spacex_payloads_pipeline']) retrieved from /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py
+[2023-09-20T12:48:11.819+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:11.819+0530] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T12:48:11.851+0530] {logging_mixin.py:151} INFO - [2023-09-20T12:48:11.851+0530] {dag.py:3696} INFO - Setting next_dagrun for spacex_payloads_pipeline to 2023-09-06T00:00:00+00:00, run_after=2023-09-06T00:00:00+00:00
+[2023-09-20T12:48:11.880+0530] {processor.py:179} INFO - Processing /home/osairis/SpaceX-Data-Engineering-Project/airflow/dags/spacex_payloads.py took 0.208 seconds
