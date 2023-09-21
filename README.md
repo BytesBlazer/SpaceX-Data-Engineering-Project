@@ -10,6 +10,7 @@ The project contains various components
 - Google Cloud Storage
 - BigQuery
 - Power BI
+![[images/Architecture.png]
 ## Overview
 Data is captured in real time from the [SpaceX API](https://github.com/r-spacex/SpaceX-API), The data collected from the SpaceX api is then stored on local disk and timely moved to MongoDB and Google Cloud Storage, ETL jobs are scheduled using Airflow to run every 10 minutes.
 ## ETL Pipeline
