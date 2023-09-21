@@ -15,6 +15,9 @@ The project contains various components
 
 ## Overview
 Data is captured in real time from the [SpaceX API](https://github.com/r-spacex/SpaceX-API), The data collected from the SpaceX api is then stored on local disk and timely moved to MongoDB and Google Cloud Storage, ETL jobs are scheduled using Airflow to run every 10 minutes.
+
+![Dashboard Snapshot](https://github.com/BytesBlazer/SpaceX-Data-Engineering-Project/blob/main/images/Dashboard.png?raw=true)
+
 ## ETL Pipeline
 - **Fetch SpaceX API Data:** Retrieve data from SpaceX API using Python's `requests` library and save it as a local JSON file.
 - **Store Data in MongoDB:** Ingest the data into MongoDB for flexible analysis and querying capabilities.
